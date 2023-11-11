@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de código fuente">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{a780a785-166c-4334-beca-934b1a293fc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Macro">
+      <UniqueIdentifier>{91614919-11a1-40bb-93c1-e3cff9c9e737}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\TextManager">
+      <UniqueIdentifier>{c7e6e526-5f9c-4175-8d1e-5c71e777e547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Util">
+      <UniqueIdentifier>{b526ce67-042b-4eca-be26-29af23f5ca2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\AutoUpdate">
+      <UniqueIdentifier>{0af1316d-3109-4018-b2af-4b3d5ed7cd37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\OpenGL">
+      <UniqueIdentifier>{04cb826a-3d51-4d3d-91db-8f5936e1a84e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\GameState">
+      <UniqueIdentifier>{aff6d513-36a7-4241-a998-bc0a7ca89df4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Texture">
+      <UniqueIdentifier>{5bfb7a05-59c7-4220-af30-9ff7dadca1ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\CharacterManager">
+      <UniqueIdentifier>{0f0fd6bd-a043-4014-92a3-c4149e889d5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\SoundManager">
+      <UniqueIdentifier>{cb5775ea-e520-4fb6-ba87-2075ba54d5b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Path">
+      <UniqueIdentifier>{5dfce6df-0429-403a-9489-762735f84e9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\InterfaceManager">
+      <UniqueIdentifier>{f9ae41bf-0db3-4a5a-bcdd-11fd87d35963}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\MapManager">
+      <UniqueIdentifier>{b9a172f1-30f1-428e-840c-f197ce8ca40a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\BMDManager">
+      <UniqueIdentifier>{9b323792-36b5-47c0-8f5f-78a45751cb14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\CharacterMachine">
+      <UniqueIdentifier>{0f51f29b-0fed-4130-8ca5-b0c26921df83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\HotKey">
+      <UniqueIdentifier>{0404b747-2fbf-44f2-baa3-9613a0ee0b83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\ObjectManager">
+      <UniqueIdentifier>{05c934e3-25e0-4220-8ad3-470e9fbf4303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\OperatesManager">
+      <UniqueIdentifier>{9febd540-5268-4b32-8124-90d944db75ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\ObjectManager\ObjectBlockManager">
+      <UniqueIdentifier>{ae7cd3bd-a44a-4fa7-b7e2-1da04f1f2023}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="small.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Main.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>Main\Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="TextManager.h">
+      <Filter>Main\TextManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Main\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoUpdate.h">
+      <Filter>Main\AutoUpdate</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL.h">
+      <Filter>Main\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Main\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Main\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterManager.h">
+      <Filter>Main\CharacterManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Main\SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Path.h">
+      <Filter>Main\Path</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfaceManager.h">
+      <Filter>Main\InterfaceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager.h">
+      <Filter>Main\MapManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BMDManager.h">
+      <Filter>Main\BMDManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterMachine.h">
+      <Filter>Main\CharacterMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="HotKey.h">
+      <Filter>Main\HotKey</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Main\ObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="OperatesManager.h">
+      <Filter>Main\OperatesManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectBlockManager.h">
+      <Filter>Main\ObjectManager\ObjectBlockManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Macro.cpp">
+      <Filter>Main\Macro</Filter>
+    </ClCompile>
+    <ClCompile Include="TextManager.cpp">
+      <Filter>Main\TextManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Main\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoUpdate.cpp">
+      <Filter>Main\AutoUpdate</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGL.cpp">
+      <Filter>Main\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Main\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Main\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterManager.cpp">
+      <Filter>Main\CharacterManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Main\SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Path.cpp">
+      <Filter>Main\Path</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfaceManager.cpp">
+      <Filter>Main\InterfaceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager.cpp">
+      <Filter>Main\MapManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BMDManager.cpp">
+      <Filter>Main\BMDManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterMachine.cpp">
+      <Filter>Main\CharacterMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="HotKey.cpp">
+      <Filter>Main\HotKey</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Main\ObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="OperatesManager.cpp">
+      <Filter>Main\OperatesManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectBlockManager.cpp">
+      <Filter>Main\ObjectManager\ObjectBlockManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Main.rc">
+      <Filter>Archivos de recursos</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
